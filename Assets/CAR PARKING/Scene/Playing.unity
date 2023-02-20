@@ -514,6 +514,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: MenuManager
       objectReference: {fileID: 0}
+    - target: {fileID: 3727722826790758244, guid: 386a90cb63e636d4d8378890cfaa48e5, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -30.900024
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279674705435881111, guid: 386a90cb63e636d4d8378890cfaa48e5, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 80.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279674705435881111, guid: 386a90cb63e636d4d8378890cfaa48e5, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -29.099976
+      objectReference: {fileID: 0}
+    - target: {fileID: 4489852016465521648, guid: 386a90cb63e636d4d8378890cfaa48e5, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -30.900024
+      objectReference: {fileID: 0}
     - target: {fileID: 4840483031017586270, guid: 386a90cb63e636d4d8378890cfaa48e5, type: 3}
       propertyPath: m_Text
       value: Level 1

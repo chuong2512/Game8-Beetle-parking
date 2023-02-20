@@ -6,12 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/CAR PARKING/Scene/flash.unity
-    guid: 0c68235767b752b4a894f24a38d87744
-  - enabled: 1
     path: Assets/CAR PARKING/Scene/Home.unity
     guid: ba52c2743856e4a20900a79c92a762a8
   - enabled: 1
-    path: Assets/CAR PARKING/Scene/playing.unity
+    path: Assets/CAR PARKING/Scene/Playing.unity
     guid: 283f80193e118ac46ad7bf14fcb60e9c
   m_configObjects: {}
