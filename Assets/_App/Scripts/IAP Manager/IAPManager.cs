@@ -7,10 +7,10 @@ using UnityEngine.Purchasing;
 
 public class IAPKey
 {
-    public const string PACK1 = "add1$";
-    public const string PACK2 = "add2$";
-    public const string PACK3 = "add5$";
-    public const string PACK4 = "add10$";
+    public const string PACK1 = "add1do";
+    public const string PACK2 = "add2do";
+    public const string PACK3 = "add5do";
+    public const string PACK4 = "add10do";
 }
 
 public class IAPManager : PersistentSingleton<IAPManager>, IStoreListener
@@ -133,6 +133,11 @@ public class IAPManager : PersistentSingleton<IAPManager>, IStoreListener
     public void OnInitializeFailed(InitializationFailureReason error)
     {
         Debug.Log("OnInitializeFailed InitializationFailureReason:" + error);
+    }
+
+    public void OnInitializeFailed(InitializationFailureReason error, string message)
+    {
+        
     }
 
     public PurchaseProcessingResult ProcessPurchase(PurchaseEventArgs args)
