@@ -8,6 +8,7 @@ public class GameDataManager : PersistentSingleton<GameDataManager>
 
     /*----Data variable-------------------------------------------------------------------------------------------------*/
     [HideInInspector] public PlayerData playerData;
+    public int currentID;
 
     private void Start()
     {
@@ -24,5 +25,10 @@ public class GameDataManager : PersistentSingleton<GameDataManager>
     public void ResetData()
     {
         playerData.ResetData();
+    }
+
+    public void SetCurrentSongID(int id)
+    {
+        
     }
 }
